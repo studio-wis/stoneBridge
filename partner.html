@@ -17,19 +17,17 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
-    <!-- jQuery CDN -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/main.js"></script>
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="wrap">
+    <div class="wrap non-bg">
         <div class="visual-area">
             <div id="headers"></div>
-            <h1>STONEBRIDGE<br>VENTURES</h1>
+            <h1>PARTNER</h1>
+            <img class="visual-img" src="img/partner_visual_bg.png" alt="">
+            <img class="obj-img" src="img/partner_visual_obj.png" alt="">
         </div>
         <!-- end visual-area -->
         <div id="partner" class="content">
@@ -48,7 +46,7 @@
                         </i>
                     </div>
                     <ul class="depth01">
-                        <li>
+                        <li class="menu01">
                             <p><a href="#">Technology<i class="depth01-arrow material-icons">arrow_drop_down</i></a></p>
                             <ul class="depth02">
                                 <li><input type="checkbox" name="chk01" id="chk01"><label for="chk01"><span>Consumer</span></label></li>
@@ -56,7 +54,7 @@
                                 <li><input type="checkbox" name="chk03" id="chk03"><label for="chk03"><span>Frontier Tech</span></label></li>
                             </ul>
                         </li>
-                        <li>
+                        <li class="menu02">
                             <p><a href="#">Life Science<i class="depth01-arrow material-icons">arrow_drop_down</i></a></p>
                             <ul class="depth02">
                                 <li><input type="checkbox" name="chk04" id="chk04"><label for="chk04"><span>Biopharma</span></label></li>
@@ -194,16 +192,22 @@
             <div class="more-btn">
                 <a>
                     <p>MORE</p>
-                    <img src="img/more_icon.png" alt="">
+                    <i class="material-icons">arrow_downward</i>
                 </a>
             </div>
             <!-- end more-btn -->
         </div>
         <!-- end content -->
         <div id="footers"></div>
+        <!-- jQuery CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/main.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
-            AOS.init({});
+            $(function() {
+                AOS.init({});
+            })
         </script>
     </div>
     <!-- end wrap -->

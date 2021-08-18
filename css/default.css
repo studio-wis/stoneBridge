@@ -11,10 +11,12 @@ font-family: 'Spoqa Han Sans Neo', 'sans-serif';
 400px == 41.861rem;
 30px == 6.977rem;
 23px == 5.349rem;
+24px == 5.582rem;
 22px == 5.117rem;
 20px == 4.739rem;
 19px == 4.419rem;
 18px == 4.189rem;
+17px == 3.953rem;
 16px == 3.721rem;
 14px == 3.256rem;
 12px == 2.791rem;
@@ -64,8 +66,7 @@ font-family: 'Spoqa Han Sans Neo', 'sans-serif';
     font-style: normal;
 }
 
-html,
-body {
+html {
     font-size: 62.5%;
 }
 
