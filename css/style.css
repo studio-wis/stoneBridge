@@ -403,7 +403,7 @@ footer .wsite-link:hover i {
     font-weight: 600;
     left: 130px;
     bottom: 130px;
-    z-index: 55;
+    z-index: 3;
 }
 
 .visual-area .visual-img {
@@ -777,7 +777,6 @@ footer .wsite-link:hover i {
 #crew .crew-box ul li {
     font-family: 'Spoqa Han Sans Neo';
     font-weight: 400;
-    /* border-top: 1px solid #fff; */
     display: inline-block;
     vertical-align: middle;
     width: 50%;
