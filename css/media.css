@@ -360,32 +360,9 @@
         font-size: 16px;
         padding-bottom: 22px;
     }
-    .about-02 {
-        background: #3d5bdc;
-    }
-    .about-02 .ab-txt h1 {
-        color: #fff;
-    }
-    .about-02 .ab-txt p {
-        color: #fff;
-    }
-    .about-03 .ab-txt h1 {
-        color: #3d5bdc;
-    }
-    .about-03 .ab-txt p {
-        color: #202020;
-    }
+    
     .about-04 {
         background: #f4f6fa;
-    }
-    .about-05 {
-        background: #2F3133;
-    }
-    .about-05 .ab-txt h1 {
-        color: #fff;
-    }
-    .about-05 .ab-txt p {
-        color: #fff;
     }
     #about .about-06 {
         position: static;
@@ -406,7 +383,6 @@
     #about .about-06 .ab-txt h1 {
         position: static;
         top: 0;
-        color: #3d5bdc;
         padding-bottom: 0;
     }
     .about-06 .ab-table {
