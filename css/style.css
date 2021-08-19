@@ -761,8 +761,7 @@ footer .wsite-link:hover i {
     left: 30px;
     color: #fff;
 }
-
-#crew .crew-box ul {
+#crew .crew-box .crew-position {
     position: absolute;
     bottom: 26px;
     left: 50%;
@@ -771,11 +770,14 @@ footer .wsite-link:hover i {
     padding: 0 30px;
     font-size: 0;
 }
+#crew .crew-box ul {
+    border-top: 1px solid #fff;
+}
 
 #crew .crew-box ul li {
     font-family: 'Spoqa Han Sans Neo';
     font-weight: 400;
-    border-top: 1px solid #fff;
+    /* border-top: 1px solid #fff; */
     display: inline-block;
     vertical-align: middle;
     width: 50%;
