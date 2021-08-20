@@ -17,33 +17,40 @@
     display: inline-block;
     vertical-align: middle;
     width: calc(100% - 280px);
+    border-right: 1px solid #3d5bdc;
+    font-size: 0;
+}
+
+.user-setting .searchBox .search-icon {
+    display: inline-block;
+    vertical-align: middle;
     position: relative;
+    cursor: pointer;
+    width: 70px; height: 59px;
     border-right: 1px solid #3d5bdc;
 }
 
+.user-setting .searchBox .search-icon i {
+    color: #3d5bdc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .user-setting .searchBox input[type="search"] {
-    width: 100%;
     border: none;
     font-size: 1.6rem;
     font-weight: 600;
-    padding: 20px 54px;
+    padding: 20px;
     background: transparent;
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 70px);
 }
 
 .user-setting .searchBox input[type="search"]::placeholder {
     color: #3d5bdc;
 }
-
-.user-setting .searchBox .search-icon {
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-    left: 20px;
-    transform: translateY(-50%);
-    color: #3d5bdc;
-    cursor: pointer;
-}
-
 .user-setting .cateBox {
     display: inline-block;
     vertical-align: middle;

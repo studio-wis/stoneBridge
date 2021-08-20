@@ -70,7 +70,6 @@
     .content {
         padding: 40px 30px;
     }
-    
     .visual-area h1 {
         left: 30px;
         bottom: 122px;
@@ -235,7 +234,8 @@
     }
     .popup .popContent .crew-txt {
         position: static;
-        left: unset; bottom: unset;
+        left: unset;
+        bottom: unset;
         padding: 30px 40px;
     }
     .popup .popContent .key-inf {
@@ -360,7 +360,6 @@
         font-size: 16px;
         padding-bottom: 22px;
     }
-    
     .about-04 {
         background: #f4f6fa;
     }
@@ -619,5 +618,25 @@
     .dark .user-setting .searchBox {
         border-right: none;
         border-bottom: 1px solid #fff;
+    }
+    .opening .wrap-box .layout h1 {
+        font-size: 9.41rem;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    
+    /* opening */
+    .opening {
+        height: auto;
+        display: block;
+    }
+    .opening .wrap-box .layout::after {
+        content: "";
+        display: block;
+        padding-bottom: 100%;
+    }
+    .opening .wrap-box .layout h1 {
+        font-size: 4.739rem;
     }
 }
