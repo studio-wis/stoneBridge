@@ -26,7 +26,6 @@ window.onload = function() {
     }
 
     const storedTheme = localStorage.getItem("darkTheme");
-    console.log(storedTheme);
 
     if (storedTheme !== null) {
         if (storedTheme === "true") {
@@ -75,7 +74,6 @@ window.onload = function() {
     // 21/12/29 line 75 searchBox 수정
     $(".user-setting .cateBox .placeholder").click(function() {
         $(".user-setting .cateBox").toggleClass("on");
-        // $(".user-setting .cateBox .placeholder .arrow").toggleClass("toggle");
 
         $(".user-setting .cateBox .depth01").toggleClass("slide");
         $(".user-setting .cateBox .depth02").removeClass("slide");
