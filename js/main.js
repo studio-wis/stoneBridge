@@ -25,18 +25,18 @@ window.onload = function() {
         });
     }
 
+    
+
     const storedTheme = localStorage.getItem("darkTheme");
 
-    if (storedTheme !== null) {
-        if (storedTheme === "true") {
-            document.documentElement.classList.add("dark");
-            $("#open-menu .screen-mode").addClass("change");
-            $("#open-menu .screen-mode").find("i").text("dark_mode");
-        } else {
-            document.documentElement.classList.remove("dark");
-            $("#open-menu .screen-mode").removeClass("change");
-            $("#open-menu .screen-mode").find("i").text("circle");
-        }
+    if (storedTheme === "true") {
+        document.documentElement.classList.add("dark");
+        $("#open-menu .screen-mode").addClass("change");
+        $("#open-menu .screen-mode").find("i").text("dark_mode");
+    } else {
+        document.documentElement.classList.remove("dark");
+        $("#open-menu .screen-mode").removeClass("change");
+        $("#open-menu .screen-mode").find("i").text("circle");
     }
 
     /* a 태그 경로 제거 */
