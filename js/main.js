@@ -33,7 +33,7 @@ window.onload = function() {
         document.documentElement.classList.add("dark");
         $("#open-menu .screen-mode").addClass("change");
         $("#open-menu .screen-mode").find("i").text("dark_mode");
-    } else if(storedTheme ==="false"){
+    } else if(storedTheme === "false"){
         document.documentElement.classList.remove("dark");
         $("#open-menu .screen-mode").removeClass("change");
         $("#open-menu .screen-mode").find("i").text("circle");
